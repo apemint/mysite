@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 // Components / Animations
 import Background from './components/Particles/Particle.js'
 import Wrapper from './components/Wrapper';
-import Nav from './components/Nav'
+import Header from './components/Header'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -44,11 +44,12 @@ function App() {
           <div
             style={style}
           >
-            <Nav />
-            <Home className="center" />
-
-            <About />
-            <ProjectsPage />
+            <Header/>
+            <Home id="Home"/>
+            <About id="About"/>
+            <ProjectsPage id="Projects" />
+            {/* <Resume id="Resume" />
+            <Contact id="Contact" /> */}
           </div>
 
         </div>

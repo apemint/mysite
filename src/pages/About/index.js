@@ -15,7 +15,7 @@ function About() {
             <Row>
                 <Col>
                     <div>
-                        <img src={ProfilePic} style={{ height: 'auto', maxWidth: '50%', borderRadius:'50%'}} />
+                        <img src={ProfilePic} alt="ProfilePic" style={{ height: 'auto', maxWidth: '50%', borderRadius:'50%'}} />
                     </div>
 
                 </Col>
