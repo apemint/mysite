@@ -7,15 +7,13 @@ import project6 from './images/projects/cardSearch.png';
 
 const projectList = [
     {
-        // Add image in './styles/images.css' in #project1
         id: "project1",
         image: project1,
         name: "Good Readme Generator",
         skills: ["Node.js, JS"],
-        url: "https://github.com/kaustubhai"
+        url: "https://github.com/apemint/goodreadmegenerator"
     },
     {
-        // Add image in './styles/images.css' in #project2
         id: "project2",
         image: project2,
         name: "Google Books",
@@ -23,7 +21,6 @@ const projectList = [
         url: "https://github.com/apemint/books"
     },
     {
-        // Add image in './styles/images.css' in #project3
         id: "project3",
         image: project3,
         name: "Flight Saver",
@@ -31,7 +28,6 @@ const projectList = [
         url: "https://github.com/apemint/Flight-Saver"
     },
     {
-        // Add image in './styles/images.css' in #project4
         id: "project4",
         image: project4,
         name: "NerdHerd",
@@ -39,7 +35,6 @@ const projectList = [
         url: "https://github.com/nickkdb/Project3"
     },
     {
-        // Add image in './styles/images.css' in #project5
         id: "project5",
         image: project5,
         name: "FiveWire Music App",
@@ -47,7 +42,6 @@ const projectList = [
         url: "https://github.com/nickkdb/Group5-Proj2"
     },
     {
-        // Add image in './styles/images.css' in #project6
         id: "project6",
         image: project6,
         name: "MtG Card Search Component",
