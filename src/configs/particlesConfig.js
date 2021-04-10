@@ -37,7 +37,7 @@ const particlesConfig = {
             }
         },
         "size": {
-            "value": 15,
+            "value": 18,
             "random": true,
             "anim": {
               "enable": false,

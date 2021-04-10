@@ -1,4 +1,9 @@
-import project1 from './images/projects/goodReadme.png'
+import project1 from './images/projects/goodReadme.png';
+import project2 from './images/projects/books.png';
+import project3 from './images/projects/flightSaver.png';
+import project4 from './images/projects/nerdHerd.png';
+import project5 from './images/projects/fiveWire.png';
+import project6 from './images/projects/cardSearch.png';
 
 const projectList = [
     {
@@ -12,37 +17,42 @@ const projectList = [
     {
         // Add image in './styles/images.css' in #project2
         id: "project2",
-        name: "Project 2",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        image: project2,
+        name: "Google Books",
+        skills: ["Node.js, Express.js, React, MongoDB"],
+        url: "https://github.com/apemint/books"
     },
     {
         // Add image in './styles/images.css' in #project3
         id: "project3",
-        name: "Project 3",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        image: project3,
+        name: "Flight Saver",
+        skills: ["HTML, CSS, JS, jQuery, Open Weathe Map API"],
+        url: "https://github.com/apemint/Flight-Saver"
     },
     {
         // Add image in './styles/images.css' in #project4
         id: "project4",
-        name: "Project 4",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        image: project4,
+        name: "NerdHerd",
+        skills: ["HTML, CSS, JS, React"],
+        url: "https://github.com/nickkdb/Project3"
     },
     {
         // Add image in './styles/images.css' in #project5
         id: "project5",
-        name: "Project 5",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        image: project5,
+        name: "FiveWire Music App",
+        skills: ["HTML, CSS, JS, jQuery"],
+        url: "https://github.com/nickkdb/Group5-Proj2"
     },
     {
         // Add image in './styles/images.css' in #project6
         id: "project6",
-        name: "Project 6",
-        skills: ["HTML, CSS, JS"],
-        url: "https://github.com/kaustubhai"
+        image: project6,
+        name: "MtG Card Search Component",
+        skills: ["HTML, CSS, JS, React, "],
+        url: "https://github.com/apemint/CardSearch"
     },
 ];
 

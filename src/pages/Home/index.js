@@ -1,5 +1,5 @@
 import React from 'react';
-import Background from '../../components/Particle'
+
 import './index.css';
 
 

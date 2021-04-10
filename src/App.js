@@ -1,14 +1,22 @@
 import './App.css';
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import Background from './components/Particle'
-import Home from './pages/Home';
+
+// Components / Animations
+import Background from './components/Particles/Particle.js'
 import Wrapper from './components/Wrapper';
 import Nav from './components/Nav'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+// Pages
+import Home from './pages/Home';
+import About from './pages/About';
 import ProjectsPage from './pages/ProjectsPage'
 
+
+
+//style for background particles
 const style = {
   position: "absolute",
   top: 0,
@@ -16,15 +24,6 @@ const style = {
   width: "100%",
   height: "100%"
 };
-
-const animation = {
-  // make it false to switch off fade-up animation
-  animate: true,
-  // animation playing duration
-  duration: 750,
-  // if false, animation plays everytime element comes on screen
-  once: true
-}
 
 function App() {
 
@@ -38,14 +37,20 @@ function App() {
 
   return (
     <Router>
-      <Wrapper>
-        <div style={style}>
+      <Wrapper >
+        <div
+          style={style}>
           <Background />
-          <div style={style}>
+          <div
+            style={style}
+          >
             <Nav />
-            <Home />
+            <Home className="center" />
+
+            <About />
             <ProjectsPage />
           </div>
+
         </div>
       </Wrapper>
     </Router>
