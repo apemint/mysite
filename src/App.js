@@ -26,7 +26,7 @@ const style1 = {
   left: 0,
   width: "100%",
   height: "100%",
-  backgroundColor: "#404E6A"
+  backgroundColor: "#404E6B"
 };
 const style2 = {
   position: "absolute",
@@ -47,8 +47,8 @@ function App() {
   }, []);
 
   return (
-    <Container className="red">
-           <Row style={style1}>
+    <Container>
+           <div style={style1}>
             <Background />
             <Col style={style2}>
               <Header />
@@ -58,7 +58,7 @@ function App() {
             <Contact id="Contact" /> 
              </Col>
 
-          </Row>  
+          </div>  
     </Container>
   );
 }
