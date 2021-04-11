@@ -24,7 +24,7 @@ function Contact() {
             </Row>
             <Row className='bottom-pad'>
                 <Col >
-                    <h4><AiOutlineMail size={iconSize}/> ESCOBAR.ANDRES.ALFONSO@GMAIL.COM</h4>
+                    <h5><AiOutlineMail size={iconSize}/> escobar.andres.alfonso@gmail.com</h5>
                     <a href={gitHub}><VscGithub size={iconSize}/></a>
                     <a href={linkedIn}><AiOutlineLinkedin size={iconSize}/></a>
                     <a href={twitter}><FiTwitter size={iconSize} /></a>
