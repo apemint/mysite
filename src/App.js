@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { Container, Row, Col} from 'react-bootstrap';
 
 // Components / Animations
 import Background from './components/Particles/Particle.js'
@@ -12,12 +13,22 @@ import 'aos/dist/aos.css';
 // Pages
 import Home from './pages/Home';
 import About from './pages/About';
-import ProjectsPage from './pages/ProjectsPage'
+import ProjectsPage from './pages/ProjectsPage';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
 
 
-//style for background particles
-const style = {
+// style for background particles
+const style1 = {
+  position: "absolute",
+  top: 0,
+  left: 0,
+  width: "100%",
+  height: "100%",
+  backgroundColor: "#404E6A"
+};
+const style2 = {
   position: "absolute",
   top: 0,
   left: 0,
@@ -36,25 +47,19 @@ function App() {
   }, []);
 
   return (
-    <Router>
-      <Wrapper >
-        <div
-          style={style}>
-          <Background />
-          <div
-            style={style}
-          >
-            <Header/>
-            <Home id="Home"/>
-            <About id="About"/>
-            <ProjectsPage id="Projects" />
-            {/* <Resume id="Resume" />
-            <Contact id="Contact" /> */}
-          </div>
+    <Container className="red">
+           <Row style={style1}>
+            <Background />
+            <Col style={style2}>
+              <Header />
+              <About id="About" />
+              <ProjectsPage  />
+               <Resume id="Resume" />
+            <Contact id="Contact" /> 
+             </Col>
 
-        </div>
-      </Wrapper>
-    </Router>
+          </Row>  
+    </Container>
   );
 }
 

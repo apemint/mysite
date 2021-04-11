@@ -1,26 +1,30 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import ProfilePic from '../../assets/images/escobar.jpg'
+import './index.css'
 
 function About() {
 
     return (
 
-        <Container fluid align="center" data-aos='fade-up'>
+        <Container fluid align="center" data-aos='fade-up' id="About">
             <Row>
-                <Col>
-                    <h1>About Me</h1>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <div>
-                        <img src={ProfilePic} alt="ProfilePic" style={{ height: 'auto', maxWidth: '50%', borderRadius:'50%'}} />
+                <Col className="justify-content-center">
+                    <div className='padded'>
+                        <h1 className="border">Hello!</h1>
                     </div>
 
                 </Col>
-                <Col>
-                    <p style={{marginRight:'5em'}}>
+
+            </Row>
+            <Row>
+                <Col >
+                    <div className="bottom-padding">
+                        <img src={ProfilePic} alt="ProfilePic" style={{ height: '300px', maxWidth: 'auto', borderRadius: '50%' }} />
+                    </div>
+                    <h1> I'm Andres and I am... </h1>
+                    <div className="padded border">
+                    <p>
                         A Full Stack Web Developer with a background in Russian Language
                         and literature and Economics. Recently has earned a certificate in
                         full stack web development from Rutgers University, which focuses on
@@ -32,6 +36,8 @@ function About() {
                         globalization and international compatibility in mind.
 
                     </p>
+                    </div>
+
                 </Col>
             </Row>
         </Container>

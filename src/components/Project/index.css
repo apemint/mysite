@@ -1,3 +1,7 @@
-#transparent {
-    background-color: red !important;
+.card-padding {
+    padding-bottom: 50px;
+
+}
+h2 {
+    color:#F9E338;
 }

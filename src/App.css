@@ -1,5 +1,10 @@
-
-
-body {
-    background: red;
+*:not(a, h2) {
+    color:white
 }
+
+
+
+.padded {
+    padding: 50px;
+}
+

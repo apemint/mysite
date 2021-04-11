@@ -17,16 +17,18 @@ function Header() {
 
     return (
         <>
-                <Navbar fixed="top" bg="dark" variant="dark">
-                    <Navbar.Brand href="#Home">Andres A. Escobar</Navbar.Brand>
+            <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
+                <Navbar.Brand href="#About">Andres A.Escobar</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#About">About</Nav.Link>
                         <Nav.Link href="#Projects">Projects</Nav.Link>
                         <Nav.Link href="#Resume">Resume</Nav.Link>
-                        <Nav.Link href="#Contact">Contact</Nav.Link>
-
+                        <Nav.Link href="#Contact">Contact Me</Nav.Link>
                     </Nav>
-                </Navbar>          
+                </Navbar.Collapse>
+            </Navbar>
+            <br />
         </>
     )
 }
