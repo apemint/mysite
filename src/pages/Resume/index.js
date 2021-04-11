@@ -15,7 +15,7 @@ function Resume() {
             </Row>
             <Row>
                 <Col>
-                <a href ='https://drive.google.com/file/d/1y9COc-hy4oCU-qNbj2yOVOXL7y6nVrgl/view?usp=sharing' target = "_blank"><h2>Download Pdf</h2></a>
+                <a href ='https://drive.google.com/file/d/1cEbv5HyevkBVI2WNKNrOGVA9iUWQ5x5j/view?usp=sharing' target = "_blank"><h2>Download Pdf</h2></a>
                 </Col>
             </Row>
 
