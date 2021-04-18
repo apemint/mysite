@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from 'react-router-dom';
-import Headshot from '../../assets/images/escobar.jpg';
 import "./index.css";
-import { Container, Navbar, Nav } from 'react-bootstrap'
+import {  Navbar, Nav } from 'react-bootstrap'
 
 
 
@@ -17,11 +15,12 @@ function Header() {
 
     return (
         <>
-            <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
+            <Navbar fixed="top" collapseOnSelect expand="md" className="navbar-custom" variant="dark">
                 <Navbar.Brand href="#About">Andres A.Escobar</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
+                        <Nav.Link href="#Skills">Skills</Nav.Link>
                         <Nav.Link href="#Projects">Projects</Nav.Link>
                         <Nav.Link href="#Resume">Resume</Nav.Link>
                         <Nav.Link href="#Contact">Contact Me</Nav.Link>

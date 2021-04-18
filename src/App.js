@@ -16,7 +16,7 @@ import About from './pages/About';
 import ProjectsPage from './pages/ProjectsPage';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-
+import Skills from './pages/Skills';
 
 
 // style for background particles
@@ -26,7 +26,7 @@ const style1 = {
   left: 0,
   width: "100%",
   height: "100%",
-  backgroundColor: "#404E6B"
+  backgroundColor: "#252532"
 };
 const style2 = {
   position: "absolute",
@@ -52,10 +52,11 @@ function App() {
             <Background />
             <Col style={style2}>
               <Header />
-              <About id="About" />
+              <About />
+              <Skills />
               <ProjectsPage  />
-               <Resume id="Resume" />
-            <Contact id="Contact" /> 
+               <Resume  />
+            <Contact /> 
              </Col>
 
           </div>  

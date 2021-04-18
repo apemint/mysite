@@ -18,7 +18,7 @@ function Contact() {
             <Row>
                 <Col>
                     <div className='padded'>
-                        <h1 className='border'>Contact Me</h1>
+                        <h1 className='border-custom'>Contact Me</h1>
                     </div>
                 </Col>
             </Row>

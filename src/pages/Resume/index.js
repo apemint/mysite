@@ -9,13 +9,13 @@ function Resume() {
             <Row>
                 <Col>
                     <div className='padded'>
-                        <h1 className='border'>Resume</h1>
+                        <h1 className='border-custom'>Resume</h1>
                     </div>
                 </Col>
             </Row>
             <Row>
-                <Col>
-                <a href ='https://drive.google.com/file/d/1cEbv5HyevkBVI2WNKNrOGVA9iUWQ5x5j/view?usp=sharing' target = "_blank"><h2>Download Pdf</h2></a>
+                <Col className="links gitLinks">
+                <a href ='https://docs.google.com/document/d/19m7d6NafSIiY3tIcaqeJ_L07CVYJnXijmJDk6T9ycXk/export?format=pdf' target = "_blank"><h2>Download Pdf</h2></a>
                 </Col>
             </Row>
 

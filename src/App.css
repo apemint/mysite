@@ -1,10 +1,47 @@
-*:not(a, h2) {
-    color:white
+
+
+.card-padding {
+    padding-bottom: 50px;
 }
 
+.border-custom {
+    border-style: solid;
+    border-width: 3px;
+    border-color:white;
+}
 
+.navbar-custom {
+    background-color:#1F1F1F;
+}
+
+.links a:hover {
+color:red
+}
+.links a:active {
+    color:darkred;
+}
+
+.gitLinks a {
+color:yellow;
+font-size: 27px;
+}
+.deployedLinks a{
+    color: lightblue;
+    font-size: 20px;
+}
 
 .padded {
     padding: 50px;
 }
 
+.express {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+*:not(a, h2) {
+    color:white
+}

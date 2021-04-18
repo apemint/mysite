@@ -11,7 +11,7 @@ function About() {
             <Row>
                 <Col className="justify-content-center">
                     <div className='padded'>
-                        <h1 className="border">Hello!</h1>
+                        <h1 className="border-custom">Hello!</h1>
                     </div>
 
                 </Col>
@@ -20,10 +20,10 @@ function About() {
             <Row>
                 <Col >
                     <div className="bottom-padding">
-                        <img src={ProfilePic} alt="ProfilePic" style={{ height: '300px', maxWidth: 'auto', borderRadius: '50%' }} />
+                        <img src={ProfilePic} alt="ProfilePic" style={{ height: '300px', maxWidth: 'auto', borderRadius: '50%'}} />
                     </div>
                     <h1> I'm Andres and I am... </h1>
-                    <div className="padded border">
+                    <div className="padded border-custom">
                     <p>
                         A Full Stack Web Developer with a background in Russian Language
                         and literature and Economics. Recently has earned a certificate in
