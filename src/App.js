@@ -26,7 +26,7 @@ const style1 = {
   left: 0,
   width: "100%",
   height: "100%",
-  backgroundColor: "#252532"
+  backgroundColor: "#16141a"
 };
 const style2 = {
   position: "absolute",
