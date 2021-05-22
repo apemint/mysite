@@ -3,7 +3,7 @@ import project2 from './images/projects/books.png';
 import project3 from './images/projects/flightSaver.png';
 import project4 from './images/projects/nerdHerd.png';
 import project5 from './images/projects/fiveWire.png';
-import project6 from './images/projects/cardSearch.png';
+import project6 from './images/projects/mtgcollectiontracker.png';
 
 const projectList = [
     {
@@ -49,10 +49,10 @@ const projectList = [
     {
         id: "project6",
         image: project6,
-        name: "MtG Card Search Component",
+        name: "MtG Collection Tracker",
         skills: ["HTML, CSS, JS, React, "],
-        url: "https://github.com/apemint/CardSearch",
-        deployLink: ""
+        url: "https://github.com/apemint/magicCollectionTracker",
+        deployLink: "https://mtg-collection-tracker.herokuapp.com/"
     },
 ];
 
